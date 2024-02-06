@@ -4,4 +4,6 @@ function Main(input) {
   console.log("答えを出力")
 }
 
+var input = `atcoder.jp`;
+Main(input);
 Main(require("fs").readFileSync("/dev/stdin", "utf8"));
